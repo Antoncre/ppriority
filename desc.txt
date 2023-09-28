@@ -1,0 +1,52 @@
+Nazwa pomysłu
+
+Opis
+
+Czas wykonania (zależy od ilości osób zaangażowanych zazwyczaj dzielimy przez 1.25
+w funkcji ale wartość zwyczajna podana w minutach, jeśli wynosi 0 to znaczy że cały czas
+będzie wykonywany i może kiedyś się zakończy np rozwijanie wiedzy teologicznej)
+funkcje automatycznie konwertują minuty w godziny, dni, miesiące itd zaokrąglając
+ gdy wybieramy ile czasu zajmie chyba że wymuszamy opcję - dokładne wartości
+
+Waga od 1 małopożyt do 10 uratuje świat
+
+Pilność(urgency) od 1 jeszcze jest czas do 10 umierają
+
+Koszt wykonania (podany w złotówkach, ewentualna konwersja może być robiona
+przez API z aktualnym kursem wymiany walut)
+
+Czy mam wystarczająco środków (Bool)
+
+Termin końcowy(konkretna data YYYYmmDD)
+
+planowy czas rozpoczęcia (w jakich dniach lub miesiącach lub latach)
+
+planowy czas zakończenia (w YYYYMMDD)
+
+Załoga - liczba osób
+
+Umiejętności potrzebne - CSV te których jeszcze nie mam, albo te które
+będą potrzebne dla osób z załogi
+
+Co przyniesie pozytywnego - CSV
+
+Jakie są ryzyka - CSV
+
+Odnośniki do innych pomysłów - CSV wartości ID na które pomysły będzie miał pozytywny wpływ albo wartość TRUE
+ co oznacza że na wszystkie (funkcja sortowania może mieć wagę w zależności od ilości tych na które ma wpływ a TRUE daje największą wagę może być domyślna
+
+Data powstania pomysłu - YYYYMMDD domyślnie dzisiejsza ale można zmienić
+
+Wykonany - Bool (wykonane już się nie wyświetlają we wszystkich tylko w zakładce wykonane)
+
+--------sekcja z el wykonanych każdy z elementów wyświetla się po zaznaczeniu "Wykonany"‐-----------
+
+Rzeczywisty czas wykonania w minutach (domyślnie tyle ile było zaplanowane, chyba że został wykonany przed terminem wtedy od rozpoczęcia do dzisiaj)
+
+Wydane koszty (domyślnie tyle ile planowo, pojawi się w placeholder)
+
+osoby zaangażowane ilość (domyślnie 1)
+
+Opis wykonania - text
+
+autor
